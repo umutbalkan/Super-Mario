@@ -2,7 +2,7 @@ package model;
 
 public interface Model {
 	
-	Location loc = Location.getInstance();
+	Location loc = null;
 	class Location {
 		private static int x, y;
 			
