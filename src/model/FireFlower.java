@@ -1,5 +1,5 @@
 package model;
 
-public class FireFlower extends Collectible {
+public class FireFlower implements Collectible {
 
 }

@@ -1,5 +1,5 @@
 package model;
 
-public class Coin extends Collectible {
+public class Coin implements Collectible {
 
 }

@@ -1,9 +1,9 @@
 package model;
 
-abstract class Actor implements Movable {
+abstract class Actor extends Movable {
 	
 	
-	public boolean collision() {
+	boolean collision() {
 		return true;
 	}
 }

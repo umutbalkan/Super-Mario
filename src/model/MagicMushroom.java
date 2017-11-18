@@ -1,5 +1,5 @@
 package model;
 
-public class MagicMushroom extends Collectible implements Movable {
+public class MagicMushroom implements Collectible {
 
 }

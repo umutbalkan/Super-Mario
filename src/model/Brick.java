@@ -1,6 +1,6 @@
 package model;
 
-public class Brick extends Collectible {
+public class Brick implements Immovable {
 
 
 

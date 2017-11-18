@@ -1,16 +1,11 @@
 package model;
 
-abstract class Collidable extends Model {
+interface Collidable extends Model {
 	
-	private boolean collision;
+	boolean collision = false;
 	
 	// abstracts
-	int[] getLocation() {
-		
-		return location;
-	}
+	int[] getLocation();
 	
-	void setLocation(int x, int y) {
-		
-	}
+	void setLocation(int x, int y);
 }

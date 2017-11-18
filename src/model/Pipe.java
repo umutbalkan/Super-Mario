@@ -2,10 +2,6 @@ package model;
 
 import java.awt.image.BufferedImage;
 
-public class Pipe extends Collectible {
+public class Pipe implements Immovable {
 
-    public Pipe(double x, double y, BufferedImage style)
-    {
-    	
-    }
 }

@@ -1,5 +1,5 @@
 package model;
 
-public class OneUpShroom extends Collectible{
+public class OneUpShroom implements Collectible{
 
 }

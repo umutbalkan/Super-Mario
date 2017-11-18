@@ -1,15 +1,14 @@
 package model;
 
-abstract class Model {
+interface Model {
 	int[] location = null;
-	int x, y;
+	int x = 0;
+	int y = 0;
 	
-	int getX() {return x;}
-	int getY() {return y;}
-	void setX(int a) {x=a;}
-	void setY(int a) {y=a;}
-	
-	// abstracts
-	abstract int[] getLocation();
-	abstract void setLocation(int x, int y);
+	int getX();
+	int getY();
+	void setX(int a);
+	void setY(int a);
+	int[] getLocation();
+	void setLocation(int x, int y);
 }
