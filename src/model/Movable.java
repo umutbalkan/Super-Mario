@@ -2,5 +2,5 @@ package model;
 
 interface Movable extends Collidable {
 
-	void move(int a);
+	boolean move(int a);
 }

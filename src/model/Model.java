@@ -1,21 +1,15 @@
 package model;
 
-public interface Model {
+abstract class Model {
+	int[] location = null;
+	int x, y;
 	
-	Location loc = null;
-	class Location {
-		private static int x, y;
-			
-		private static class LocationHolder{
-			public static Location instance = new Location();
-		}
-		public static Location getInstance() {
-			return LocationHolder.instance;
-		}
-		
-		public static void setX(int a){x = a;}
-		public static void setY(int a){y = a;}
-	}
-
-	Location location();
+	int getX() {return x;}
+	int getY() {return y;}
+	void setX(int a) {x=a;}
+	void setY(int a) {y=a;}
+	
+	// abstracts
+	abstract int[] getLocation();
+	abstract void setLocation(int x, int y);
 }
