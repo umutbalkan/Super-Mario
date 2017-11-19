@@ -1,6 +1,6 @@
 package model;
 
-interface Movable extends Collidable {
+abstract class Movable extends Collidable {
 
 	void move();
 }
